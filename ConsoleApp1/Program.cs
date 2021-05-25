@@ -22,8 +22,13 @@ namespace ConsoleApp1
             //string str = Console.ReadLine();
             //new StringReverse().ReverseStringRecursively(str, 0, str.Length);
 
-            Dijkstras algo = new Dijkstras();
-            algo.Demo();
+            //Dijkstras algo = new Dijkstras();
+            //algo.Demo();
+
+
+            BFS obj = new BFS();
+            obj.PrintNodeLevel();
+                
             Console.ReadLine();
             
         }
