@@ -1,5 +1,5 @@
-﻿using System;
-using System.Text.RegularExpressions;
+﻿using Algorithms;
+using System;
 
 namespace ConsoleApp1
 {
@@ -25,10 +25,15 @@ namespace ConsoleApp1
             //Dijkstras algo = new Dijkstras();
             //algo.Demo();
 
+            //Console.WriteLine("BFS");
+            //BFS obj = new BFS();
+            //obj.PrintNodeLevel();
 
-            BFS obj = new BFS();
-            obj.PrintNodeLevel();
-                
+            Console.WriteLine("DFS");
+            DFS obj = new DFS();
+            obj.Run(obj.DefaultInput, 5, 0 );
+
+
             Console.ReadLine();
             
         }
